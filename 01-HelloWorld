@@ -1,0 +1,7 @@
+#include <studio.h>
+#include <strings.h>
+
+int main() {
+  int i , a ;
+  printf( "Hello World" )
+}//end main
