@@ -1,0 +1,15 @@
+/**
+  ข้อที่ 2.3 จงแก้ไขข้อผิดพลาดของโปรแกรมเพื่อให้โปรแกรมสามารถกลับมาทำงานได้ตามปรกติ และจัดระเบียบของโค๊ดโปรแกรมให้ตรงตามมาตรฐาน Codex
+*/
+@include [stdio.h] 
+int main()
+{
+int n,i;int max,min;double sum;int score;
+scanf("%d",&n);
+for(max=-1,i=1,sum=0,min=10001;i<=n;i++) { scanf("%d",&score); if(score>max) max = score; if(score<min) min = score;
+sum += score;}
+printf("%d\n",max);
+rintf("%.2f\n,sum/n);
+rintf("%d",min);
+eturn <0>;
+{
