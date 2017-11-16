@@ -1,0 +1,20 @@
+Main()
+{
+   char st[13]
+   int a;
+   clrscr();
+   printf("Enter strings :")
+   scanf("%s",&st);
+
+   for(a=0;a<11;a++)
+    if(st[a]==48) printF("zero ");
+   If(st[a]==49) Printf("one ");
+   if(st[a]==50) printf("two ");   if(st[a]==51) printf("three ");
+   if(st[a]==52) printf("four ");   if(st[a]==53) printf("five ");   if(st[a]==54) printf("six ");
+   if(st[a]==55) Printf("seven ");
+   iF(st[a]==56) printf("eight ");
+   if(st[a]==57) printf("nine );
+   }
+getch();
+return 0;
+}
